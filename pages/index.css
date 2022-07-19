@@ -8,6 +8,8 @@
 
 @import "../blocks/header/header.css";
 
+@import "../blocks/kurshskaya/kurshskaya.css";
+
 @import "../blocks/languages/languages.css";
 @import "../blocks/languages/__text/languages__text.css";
 @import "../blocks/languages/__text/_active/languages__text_active.css";
@@ -17,18 +19,22 @@
 
 @import "../blocks/main/main.css";
 
+@import "../blocks/nature/nature.css";
+
 @import "../blocks/page/page.css";
 
 @import "../blocks/promo/promo.css";
-@import "../blocks/promo/__title/promo__title.css";
-@import "../blocks/promo/__subtitle/promo__subtitle.css";
+@import "../blocks/promo/__cover/promo__cover.css";
+@import "../blocks/promo/__description/promo__description.css";
+@import "../blocks/promo/__image/promo__image.css";
+@import "../blocks/promo/__numbers/promo__numbers.css";
+@import "../blocks/promo/__numbers-item/promo__numbers-item.css";
+@import "../blocks/promo/__question/promo__question.css";
 @import "../blocks/promo/__signature/promo__signature.css";
+@import "../blocks/promo/__subtitle/promo__subtitle.css";
+@import "../blocks/promo/__text/promo__text.css";
+@import "../blocks/promo/__title/promo__title.css";
 
-@import "../blocks/why/why.css";
-@import "../blocks/why/__numbers/why__numbers.css";
-@import "../blocks/why/__numbers-item/why__numbers-item.css";
-@import "../blocks/why/__title/why__title.css";
-@import "../blocks/why/__text/why__text.css";
 
 
 @media screen and (max-width: 1280px) {

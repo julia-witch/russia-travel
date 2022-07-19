@@ -1,0 +1,6 @@
+.nature__item {
+    padding-bottom: 80px;
+}
+.nature__item:last-child {
+    padding-bottom: 0;
+}
