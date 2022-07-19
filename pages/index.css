@@ -2,6 +2,34 @@
 @import "../vendor/fonts.css";
 @import "../variables.css";
 
+@import "../blocks/container/container.css";
+
+@import "../blocks/gallery/gallery.css";
+
+@import "../blocks/header/header.css";
+
+@import "../blocks/languages/languages.css";
+@import "../blocks/languages/__text/languages__text.css";
+@import "../blocks/languages/__text/_active/languages__text_active.css";
+
+@import "../blocks/logo/logo.css";
+@import "../blocks/logo/_place/logo_place_header.css";
+
+@import "../blocks/main/main.css";
+
+@import "../blocks/page/page.css";
+
+@import "../blocks/promo/promo.css";
+@import "../blocks/promo/__title/promo__title.css";
+@import "../blocks/promo/__subtitle/promo__subtitle.css";
+@import "../blocks/promo/__signature/promo__signature.css";
+
+@import "../blocks/why/why.css";
+@import "../blocks/why/__numbers/why__numbers.css";
+@import "../blocks/why/__numbers-item/why__numbers-item.css";
+@import "../blocks/why/__title/why__title.css";
+@import "../blocks/why/__text/why__text.css";
+
 
 @media screen and (max-width: 1280px) {
     /* стили для десктопных экранов */

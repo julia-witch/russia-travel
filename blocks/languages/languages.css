@@ -1,6 +1,5 @@
-.header {
-    padding-top: 28px;
-    max-width: 100%;
+.languages {
+    min-width: 77px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
