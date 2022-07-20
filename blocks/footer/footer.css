@@ -1,6 +1,6 @@
-.header {
-    padding-top: 28px;
+.footer {
     width: 100%;
+    margin: 92px auto 24px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

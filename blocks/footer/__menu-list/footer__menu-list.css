@@ -1,0 +1,5 @@
+.footer__menu-list {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+}

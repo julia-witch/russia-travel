@@ -4,11 +4,15 @@
 
 @import "../blocks/container/container.css";
 
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__menu-list/footer__menu-list.css";
+@import "../blocks/footer/__menu-item/footer__menu-item.css";
+@import "../blocks/footer/__menu-link/footer__menu-link.css";
+
 @import "../blocks/gallery/gallery.css";
+@import "../blocks/gallery/__image/gallery__image.css";
 
 @import "../blocks/header/header.css";
-
-@import "../blocks/kurshskaya/kurshskaya.css";
 
 @import "../blocks/languages/languages.css";
 @import "../blocks/languages/__text/languages__text.css";
@@ -20,6 +24,14 @@
 @import "../blocks/main/main.css";
 
 @import "../blocks/nature/nature.css";
+@import "../blocks/nature/__item/nature__item.css";
+@import "../blocks/nature/__title/nature__title.css";
+@import "../blocks/nature/__title/_type/nature__title_type_center.css";
+@import "../blocks/nature/__site/nature__site.css";
+@import "../blocks/nature/__url/nature__url.css";
+@import "../blocks/nature/__link/nature__link.css";
+@import "../blocks/nature/__text/nature__text.css";
+@import "../blocks/nature/__text/_type/nature__text_type_center.css";
 
 @import "../blocks/page/page.css";
 
@@ -35,7 +47,7 @@
 @import "../blocks/promo/__text/promo__text.css";
 @import "../blocks/promo/__title/promo__title.css";
 
-
+@import "../blocks/transport/transport.css";
 
 @media screen and (max-width: 1280px) {
     /* стили для десктопных экранов */

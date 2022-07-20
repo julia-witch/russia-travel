@@ -1,0 +1,13 @@
+.footer__menu-link {
+    transition: 1.5s;
+    color: var(--main-font);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.footer__menu-link:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
