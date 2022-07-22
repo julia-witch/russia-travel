@@ -1,6 +1,15 @@
-.promo{
-    width: 100%;
-    margin: 56px auto 0 auto;
-    display: flex;
-    flex-direction: column;
+.promo {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+@media screen and (max-width: 1024px) {
+    /* стили для планшета в альбомной ориентации */
+}
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+}
+
+@media screen and (max-width: 320px) {
+    /* стили для малого смартфона */
 }

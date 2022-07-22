@@ -5,3 +5,20 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 1024px) {
+    .footer{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer{
+        margin: 88px auto 24px auto;
+        width: 95%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .footer{
+        width: 95%;
+    }
+}

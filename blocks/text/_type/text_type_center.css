@@ -1,14 +1,18 @@
-.nature {
-    padding-top: 92px;
+.text_type_center {
+    width: 35%;
     margin: 0 auto;
-    max-width: 100%;
+    text-align: center;
 }
 
 @media screen and (max-width: 1024px) {
-    /* стили для планшета в альбомной ориентации */
+    .text_type_center {
+        width: 45%;
+    }
 }
 @media screen and (max-width: 768px) {
-    /* стили для планшета */
+    .text_type_center {
+        width:55%;
+    }
 }
 
 @media screen and (max-width: 320px) {

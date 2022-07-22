@@ -3,5 +3,16 @@
     font-size: 30px;
     line-height: 36px;
     text-align: center;
-    padding-bottom: 64px;
+    padding-top: 32px;
+}
+
+@media screen and (max-width: 1024px) {
+    /* стили для планшета в альбомной ориентации */
+}
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+}
+
+@media screen and (max-width: 320px) {
+    /* стили для малого смартфона */
 }

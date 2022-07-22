@@ -1,7 +1,5 @@
-.nature {
-    padding-top: 92px;
-    margin: 0 auto;
-    max-width: 100%;
+.description__numbers {
+    padding-top: 33px;
 }
 
 @media screen and (max-width: 1024px) {

@@ -2,12 +2,19 @@
 @import "../vendor/fonts.css";
 @import "../variables.css";
 
+
 @import "../blocks/container/container.css";
 
 @import "../blocks/footer/footer.css";
 @import "../blocks/footer/__menu-list/footer__menu-list.css";
 @import "../blocks/footer/__menu-item/footer__menu-item.css";
 @import "../blocks/footer/__menu-link/footer__menu-link.css";
+
+@import "../blocks/description/description.css";
+@import "../blocks/description/__question/description__question.css";
+@import "../blocks/description/__text/description__text.css";
+@import "../blocks/description/__numbers/description__numbers.css";
+@import "../blocks/description/__numbers-item/description__numbers-item.css";
 
 @import "../blocks/gallery/gallery.css";
 @import "../blocks/gallery/__image/gallery__image.css";
@@ -19,39 +26,35 @@
 @import "../blocks/languages/__text/_active/languages__text_active.css";
 
 @import "../blocks/logo/logo.css";
-@import "../blocks/logo/_place/logo_place_header.css";
 
 @import "../blocks/main/main.css";
 
 @import "../blocks/nature/nature.css";
+@import "../blocks/nature/__description/nature__description.css";
+@import "../blocks/nature/__image/nature__image.css";
 @import "../blocks/nature/__item/nature__item.css";
-@import "../blocks/nature/__title/nature__title.css";
-@import "../blocks/nature/__title/_type/nature__title_type_center.css";
+@import "../blocks/nature/__link/nature__link.css";
 @import "../blocks/nature/__site/nature__site.css";
 @import "../blocks/nature/__url/nature__url.css";
-@import "../blocks/nature/__link/nature__link.css";
-@import "../blocks/nature/__text/nature__text.css";
-@import "../blocks/nature/__text/_type/nature__text_type_center.css";
 
 @import "../blocks/page/page.css";
 
 @import "../blocks/promo/promo.css";
-@import "../blocks/promo/__cover/promo__cover.css";
-@import "../blocks/promo/__description/promo__description.css";
 @import "../blocks/promo/__image/promo__image.css";
-@import "../blocks/promo/__numbers/promo__numbers.css";
-@import "../blocks/promo/__numbers-item/promo__numbers-item.css";
-@import "../blocks/promo/__question/promo__question.css";
-@import "../blocks/promo/__signature/promo__signature.css";
-@import "../blocks/promo/__subtitle/promo__subtitle.css";
-@import "../blocks/promo/__text/promo__text.css";
 @import "../blocks/promo/__title/promo__title.css";
+@import "../blocks/promo/__subtitle/promo__subtitle.css";
+@import "../blocks/promo/__signature/promo__signature.css";
+
+@import "../blocks/text/text.css";
+@import "../blocks/text/_type/text_type_center.css";
+
+@import "../blocks/title/title.css";
+@import "../blocks/title/_type/title_type_center.css";
+
+
 
 @import "../blocks/transport/transport.css";
 
-@media screen and (max-width: 1280px) {
-    /* стили для десктопных экранов */
-}
 
 @media screen and (max-width: 1024px) {
     /* стили для планшета в альбомной ориентации */

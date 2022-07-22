@@ -1,10 +1,24 @@
 .nature__item {
+    width: 100%;
     padding-bottom: 80px;
     display: grid;
-    grid-template-columns: repeat(2, 460px);
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: 460px fit-content(484px);
+    grid-template-rows: auto 460px;
     gap: 40px;
 }
 .nature__item:last-child {
     padding-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .nature__item {
+        padding-bottom: 73px;
+        grid-template-columns: fit-content(340px) fit-content(352px);
+        grid-template-rows: repeat(2, auto);
+        gap: 28px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    /* стили для малого смартфона */
 }

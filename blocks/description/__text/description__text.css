@@ -1,5 +1,6 @@
-.promo__text{
-    padding-top: 40px;
+.description__text {
+    max-width: 75%;
+    padding-top: 4.4%;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;

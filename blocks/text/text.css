@@ -1,10 +1,10 @@
-.nature__text {
+.text {
     padding-bottom: 26px;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.5;
 }
 
-.nature__text:last-child {
+.text:last-child {
     padding-bottom: 0;
 }

@@ -1,4 +1,14 @@
 .promo__image {
+    padding-top: 64px;
     width: 100%;
-    margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+    /* стили для планшета в альбомной ориентации */
+}
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+}
+
+@media screen and (max-width: 320px) {
+    /* стили для малого смартфона */
 }

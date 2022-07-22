@@ -1,8 +1,20 @@
 .gallery {
+    padding-top: 92px;
     width: 100%;
-    margin: 92px auto 0 auto;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 284px);
+    grid-template-rows: repeat(3, 213px);
     gap: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+    /* стили для планшета в альбомной ориентации */
+}
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+}
+
+@media screen and (max-width: 320px) {
+    /* стили для малого смартфона */
 }

@@ -3,5 +3,21 @@
     font-size: 96px;
     line-height: 1.2;
     text-align: center;
-    padding-bottom: 32px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    /* стили для планшета в альбомной ориентации */
+}
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+}
+
+@media screen and (max-width: 320px) {
+    .promo__title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 1.2;
+        text-align: center;
+    }
 }
