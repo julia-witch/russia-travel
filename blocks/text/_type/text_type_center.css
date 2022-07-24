@@ -16,5 +16,10 @@
 }
 
 @media screen and (max-width: 320px) {
-    /* стили для малого смартфона */
+    .text_type_center {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.2;
+        width: 90%;
+    }
 }

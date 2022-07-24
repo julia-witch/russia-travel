@@ -4,3 +4,20 @@
     line-height: 1.2;
     text-align: right;
 }
+
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+}
+
+@media screen and (max-width: 320px) {
+    .languages__text {
+        padding-top: 14px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.2;
+        text-align: right;
+    }
+}

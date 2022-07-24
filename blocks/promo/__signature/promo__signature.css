@@ -8,12 +8,33 @@
 }
 
 @media screen and (max-width: 1024px) {
-    /* стили для планшета в альбомной ориентации */
+    .promo__signature {
+        padding-top: 8px;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 1.5;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+    }
 }
 @media screen and (max-width: 768px) {
-    /* стили для планшета */
+    .promo__signature {
+        padding-top: 8px;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 1.5;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+    }
 }
 
 @media screen and (max-width: 320px) {
-    /* стили для малого смартфона */
+    .promo__signature {
+        padding-top: 8px;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 1.5;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+    }
 }

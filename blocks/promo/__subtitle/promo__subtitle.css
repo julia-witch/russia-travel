@@ -1,18 +1,36 @@
 .promo__subtitle {
     font-weight: 400;
     font-size: 30px;
-    line-height: 36px;
+    line-height: 1.5;
     text-align: center;
     padding-top: 32px;
 }
 
 @media screen and (max-width: 1024px) {
-    /* стили для планшета в альбомной ориентации */
+    .promo__subtitle {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 1.5;
+        text-align: center;
+        padding-top: 32px;
+    }
 }
 @media screen and (max-width: 768px) {
-    /* стили для планшета */
+    .promo__subtitle {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 1.5;
+        text-align: center;
+        padding-top: 32px;
+    }
 }
 
 @media screen and (max-width: 320px) {
-    /* стили для малого смартфона */
+    .promo__subtitle {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        padding-top: 16px;
+    }
 }

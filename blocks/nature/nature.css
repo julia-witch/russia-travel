@@ -5,12 +5,24 @@
 }
 
 @media screen and (max-width: 1024px) {
-    /* стили для планшета в альбомной ориентации */
+    .nature {
+        padding-top: 92px;
+        margin: 0 auto;
+        max-width: 100%;
+    }
 }
 @media screen and (max-width: 768px) {
-    /* стили для планшета */
+    .nature {
+        padding-top: 88px;
+        margin: 0 auto;
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width: 320px) {
-    /* стили для малого смартфона */
+    .nature {
+        padding-top: 64px;
+        margin: 0 auto;
+        max-width: 100%;
+    }
 }

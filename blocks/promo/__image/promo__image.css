@@ -3,12 +3,21 @@
     width: 100%;
 }
 @media screen and (max-width: 1024px) {
-    /* стили для планшета в альбомной ориентации */
+    .promo__image {
+        padding-top: 56px;
+        width: 100%;
+    }
 }
 @media screen and (max-width: 768px) {
-    /* стили для планшета */
+    .promo__image {
+        padding-top: 56px;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 320px) {
-    /* стили для малого смартфона */
+    .promo__image {
+        padding-top: 40px;
+        width: 100%;
+    }
 }

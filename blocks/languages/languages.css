@@ -13,5 +13,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    /* стили для малого смартфона */
+    .languages {
+        max-width: 62px;
+    }
 }

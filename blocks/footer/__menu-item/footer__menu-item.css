@@ -5,3 +5,19 @@
 .footer__menu-item:last-child {
     padding-right: 0;
 }
+
+@media screen and (max-width: 1024px) {
+    /* стили для планшета в альбомной ориентации */
+}
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+}
+
+@media screen and (max-width: 320px) {
+    .footer__menu-item {
+        padding-bottom: 32px;
+    }
+    .footer__menu-item:last-child {
+        padding-bottom: 48px;
+    }
+}

@@ -3,3 +3,19 @@
     font-size: 14px;
     line-height: 1.2;
 }
+
+
+@media screen and (max-width: 1024px) {
+    /* стили для планшета в альбомной ориентации */
+}
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+}
+
+@media screen and (max-width: 320px) {
+    .footer__copyright {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.2;
+    }
+}

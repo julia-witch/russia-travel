@@ -1,7 +1,32 @@
 .description__text {
-    max-width: 75%;
     padding-top: 4.4%;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
+}
+
+@media screen and (max-width: 1024px) {
+    .description__text {
+        padding-top: 4.4%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+}
+@media screen and (max-width: 768px) {
+    .description__text {
+        padding-top: 4.4%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .description__text {
+        padding-top: 4.4%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.6;
+    }
 }

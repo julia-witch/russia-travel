@@ -8,3 +8,29 @@
 .text:last-child {
     padding-bottom: 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .text {
+        padding-bottom: 26px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+}
+@media screen and (max-width: 768px) {
+    .text {
+        padding-bottom: 26px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .text {
+        padding-bottom: 26px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}

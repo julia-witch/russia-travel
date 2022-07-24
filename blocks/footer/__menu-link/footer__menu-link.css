@@ -11,3 +11,35 @@
     cursor: pointer;
     opacity: 0.8;
 }
+
+@media screen and (max-width: 1024px) {
+    .footer__menu-link {
+        transition: 1.5s;
+        color: var(--main-font);
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.2;
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer__menu-link {
+        transition: 1.5s;
+        color: var(--main-font);
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.2;
+    }
+}
+@media screen and (max-width: 320px) {
+    .footer__menu-link {
+        transition: 1.5s;
+        color: var(--main-font);
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 1;
+    }
+
+}

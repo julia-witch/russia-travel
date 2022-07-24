@@ -13,6 +13,7 @@
 @import "../blocks/description/description.css";
 @import "../blocks/description/__question/description__question.css";
 @import "../blocks/description/__text/description__text.css";
+@import "../blocks/description/__title/description__title.css";
 @import "../blocks/description/__numbers/description__numbers.css";
 @import "../blocks/description/__numbers-item/description__numbers-item.css";
 

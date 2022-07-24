@@ -9,12 +9,15 @@
 }
 
 @media screen and (max-width: 1024px) {
-    /* стили для планшета в альбомной ориентации */
+
 }
 @media screen and (max-width: 768px) {
     /* стили для планшета */
 }
 
 @media screen and (max-width: 320px) {
-    /* стили для малого смартфона */
+    .header {
+        padding-top: 16px;
+        align-items: center;
+    }
 }

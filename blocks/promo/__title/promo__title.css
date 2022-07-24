@@ -7,10 +7,20 @@
 
 
 @media screen and (max-width: 1024px) {
-    /* стили для планшета в альбомной ориентации */
+    .promo__title {
+        font-weight: bold;
+        font-size: 96px;
+        line-height: 1.2;
+        text-align: center;
+    }
 }
 @media screen and (max-width: 768px) {
-    /* стили для планшета */
+    .promo__title {
+        font-weight: bold;
+        font-size: 96px;
+        line-height: 1.2;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 320px) {

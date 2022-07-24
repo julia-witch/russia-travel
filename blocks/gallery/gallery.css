@@ -3,18 +3,42 @@
     width: 100%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(4, 284px);
+    grid-template-columns: repeat(4, fit-content(284px));
     grid-template-rows: repeat(3, 213px);
     gap: 16px;
 }
 
 @media screen and (max-width: 1024px) {
-    /* стили для планшета в альбомной ориентации */
+    .gallery {
+        padding-top: 92px;
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, fit-content(300px));
+        grid-template-rows: repeat(4, 225px);
+        gap: 14px;
+    }
 }
 @media screen and (max-width: 768px) {
-    /* стили для планшета */
+    .gallery {
+        padding-top: 92px;
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, fit-content(352px));
+        grid-template-rows: repeat(6, 264px);
+        gap: 16px;
+    }
 }
 
 @media screen and (max-width: 320px) {
-    /* стили для малого смартфона */
+    .gallery {
+        padding-top: 92px;
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(1, fit-content(288px));
+        grid-template-rows: repeat(12, 216px);
+        row-gap: 12px;
+    }
 }

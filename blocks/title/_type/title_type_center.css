@@ -1,25 +1,29 @@
 .title_type_center {
+    padding-top: 21%;
     width: 45%;
     margin: 0 auto;
-    padding-top: 21%;
     padding-bottom: 32px;
     text-align: center;
 }
 
 @media screen and (max-width: 1024px) {
     .title_type_center {
-        padding-top: 195px;
+        padding-top: 18%;
         width: 55%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .title_type_center {
-        padding-top: 115px;
+        padding-top: 15%;
         width: 70%;
     }
 }
 
 @media screen and (max-width: 320px) {
-    /* стили для малого смартфона */
+    .title_type_center {
+        padding-top: 10%;
+        padding-bottom: 16px;
+        width: 90%;
+    }
 }

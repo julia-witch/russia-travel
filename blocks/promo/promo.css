@@ -1,15 +1,24 @@
 .promo {
     margin: 0 auto;
-    max-width: 80%;
+    width: 80%;
 }
 
 @media screen and (max-width: 1024px) {
-    /* стили для планшета в альбомной ориентации */
+    .promo {
+        margin: 0 auto;
+        width: 90%;
+    }
 }
 @media screen and (max-width: 768px) {
-    /* стили для планшета */
+    .promo {
+        margin: 0 auto;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 320px) {
-    /* стили для малого смартфона */
+    .promo {
+        margin: 0 auto;
+        width: 100%;
+    }
 }
